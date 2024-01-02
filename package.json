@@ -18,7 +18,7 @@
     "trading:test:all": "cd apps/trading/e2e && poetry run pytest -s --numprocesses 6 --dist loadfile"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": ">=18.x"
   },
   "private": true,
   "dependencies": {
